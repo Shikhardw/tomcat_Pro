@@ -31,8 +31,8 @@
 		<artifactId>tomcat-maven-plugin</artifactId>
 		<configuration>
 			<url>http://104.196.69.121:8080/manager/text</url>
-			<server>mytomcat</server>
-			<path>/mywebapp</path>
+			<server>TomcatServer</server>
+			<path>/tomcatproject</path>
 		</configuration>
 	   </plugin>	
   </plugins>
