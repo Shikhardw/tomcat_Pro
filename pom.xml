@@ -14,5 +14,15 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+	<plugin>
+		<groupId>org.apache.tomcat.maven</groupId>
+		<artifactId>tomcat8-maven-plugin</artifactId>
+		<version>3.0-r1655215</version>
+		<configuration>
+			<url>http://104.196.69.121:8080/manager/</url>
+			<server>TomcatServer</server>
+			<path>/tomcatproject</path>
+		</configuration>
+	</plugin>
 
 </project>
