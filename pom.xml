@@ -14,7 +14,9 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-	<plugins>
+<build>
+   <finalName>tomcatproject</finalName>
+   <plugins>
 	<plugin>
 		<groupId>org.apache.tomcat.maven</groupId>
 		<artifactId>tomcat8-maven-plugin</artifactId>
@@ -25,5 +27,6 @@
 			<path>/tomcatproject</path>
 		</configuration>
 	</plugin>
-</plugins>
+  </plugins>
+</build>	
 </project>
